@@ -51,7 +51,7 @@ CSS SITEMAP >>>>
     background: #222;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(24, 24, 24) 500px),
        linear-gradient(to left, rgba(0, 0, 0, 0.1) 80%, rgb(24, 24, 24) 100%), 
-       url(./images/backdrop.jpg);
+       url(/images/backdrop.jpg);
       background-repeat: no-repeat;
       background-attachment: fixed; 
       background-position: top;
@@ -488,7 +488,29 @@ CSS SITEMAP >>>>
   .fa-whatsapp:hover {
     color: #25d366; /* Change color to WhatsApp green on hover */
   }
-  
+  /*.social-icons li a:hover {
+    color:#1e1e1e;
+    background-color: #fff;
+  }
+  .fa-github:hover {
+    /*width:100%;
+    height:100%;
+    background-color: #fff;
+    color:#1e1e1e;
+    filter: grayscale(100%);
+  }
+  .fa-linkedin:hover {
+    /*width:100%;
+    height:100%;
+    background-color: #fff;
+    color:#0a66c2;
+  }
+  .fa-whatsapp:hover {
+    /*width:100%;
+    height:100%;
+    background-color: #fff;
+    color:#25d366;
+  }*/
   /*==============================================
   04. WELCOME BLOCK CSS
   ================================================*/
