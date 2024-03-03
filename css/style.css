@@ -51,7 +51,7 @@ CSS SITEMAP >>>>
     background: #222;
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgb(24, 24, 24) 500px),
        linear-gradient(to left, rgba(0, 0, 0, 0.1) 80%, rgb(24, 24, 24) 100%), 
-       url(/images/backdrop.jpg);
+       url(images/backdrop.jpg);
       background-repeat: no-repeat;
       background-attachment: fixed; 
       background-position: top;
