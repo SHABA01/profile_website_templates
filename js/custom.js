@@ -53,7 +53,8 @@
                 dots: true,
                 items: 3,
                 margin: 30,
-                autoplay: false,
+                autoplay: true,
+                autoplayHoverPause: true,
                 smartSpeed: 700,
                 autoplayTimeout: 6000,
                 responsive: {
@@ -81,9 +82,10 @@
                 loop: true,
                 nav: false,
                 dots: true,
-                items: 3,
+                items: 4,
                 margin: 30,
-                autoplay: false,
+                autoplay: true,
+                autoplayHoverPause: true,
                 smartSpeed: 700,
                 autoplayTimeout: 6000,
                 responsive: {
@@ -108,11 +110,12 @@
         }
         if ($('.gallery-list').length) {
             $('.gallery-list').owlCarousel({
-                loop: false,
+                loop: true,
                 nav: false,
                 dots: true,
-                items: 3,
+                items: 7,
                 autoplay: true,
+                autoplayHoverPause: true,
                 smartSpeed: 700,
                 autoplayTimeout: 4000,
                 responsive: {
@@ -139,6 +142,7 @@
                 items: 1,
                 margin: 30,
                 autoplay: true,
+                autoplayHoverPause: true,
                 smartSpeed: 700,
                 autoplayTimeout: 6000,
                 responsive: {
@@ -199,7 +203,7 @@
             $('body').removeClass('sidemenu-open');
         });
         $('#resume').on('click', function(){
-            window.open("https://docs.google.com/document/d/1WbiVCpqM5lFpEIomTHB3KZjT679LSg-l/edit?usp=drivesdk&ouid=112206428346151781077&rtpof=true&sd=true");
+            window.open("https://drive.google.com/file/d/1ZUoqdeW3gLEqMiB6ghF-pdpTuZHqVHjR/view?usp=sharing");
         })
     });
     
