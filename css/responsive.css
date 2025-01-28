@@ -120,6 +120,7 @@
 @media only screen and (max-width: 991px) {
 	.welcome-box {
 		padding: 150px 0px 0;
+		/*padding: 0;*/
 	}
 	.navbar-nav li a {
 		font-size:18px;
@@ -380,8 +381,8 @@
 	  padding-bottom: 50px;
 	}
 	.skills-row h6 {
-	  text-align: left;
-	  margin-bottom: 30px;
+	  text-align: right;
+	  margin-bottom: 0;
 	}
 	.skill-bar {
 	  width: 100%;
